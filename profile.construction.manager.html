@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Goals and Key Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .content {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        button {
+            margin-right: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('Copied to clipboard');
+            });
+        }
+        function printContent() {
+            window.print();
+        }
+    </script>
+</head>
+<body>
+
+<div class="content">
+    <h2>English</h2>
+    <p>As a Construction Manager with expertise in managing civil, architectural, and electromechanical activities, my career goals are to lead large-scale construction projects, ensuring quality, efficiency, and safety. My key skills include project management, team leadership, and technical proficiency in HVAC, fire fighting, and plumbing systems.</p>
+</div>
+
+<div class="content">
+    <h2>Arabic</h2>
+    <p>بصفتي مدير إنشاءات متخصص في إدارة الأنشطة المدنية والمعمارية والإلكتروميكانيكية، فإن أهدافي المهنية هي قيادة مشاريع الإنشاءات الكبيرة، وضمان الجودة والكفاءة والسلامة. تشمل مهاراتي الرئيسية إدارة المشاريع، وقيادة الفرق، والكفاءة التقنية في أنظمة التكييف والتهوية، ومكافحة الحريق، والسباكة.</p>
+</div>
+
+<button onclick="copyToClipboard('As a Construction Manager with expertise in managing civil, architectural, and electromechanical activities, my career goals are to lead large-scale construction projects, ensuring quality, efficiency, and safety. My key skills include project management, team leadership, and technical proficiency in HVAC, fire fighting, and plumbing systems. بصفتي مدير إنشاءات متخصص في إدارة الأنشطة المدنية والمعمارية والإلكتروميكانيكية، فإن أهدافي المهنية هي قيادة مشاريع الإنشاءات الكبيرة، وضمان الجودة والكفاءة والسلامة. تشمل مهاراتي الرئيسية إدارة المشاريع، وقيادة الفرق، والكفاءة التقنية في أنظمة التكييف والتهوية، ومكافحة الحريق، والسباكة.')">Copy</button>
+
+<button onclick="printContent()">Print</button>
+
+</body>
+</html>
